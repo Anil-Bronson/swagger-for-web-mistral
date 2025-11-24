@@ -1,9 +1,22 @@
 {
+  "name": "ai-image-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for BLIP image analysis + Mistral funny captions with Swagger docs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["blip", "mistral", "swagger", "image-analysis"],
+  "author": "anil bronson",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2",
+    "express": "^4.19.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
