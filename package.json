@@ -2,10 +2,10 @@
   "name": "ai-image-proxy",
   "version": "1.0.0",
   "description": "Proxy for BLIP image analysis + Mistral funny captions with Swagger docs",
-  "main": "server.js",
+  "main": "minstral.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node minstral.js",
+    "dev": "node minstral.js"
   },
   "keywords": ["blip", "mistral", "swagger", "image-analysis"],
   "author": "anil bronson",
