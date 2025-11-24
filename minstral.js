@@ -248,5 +248,5 @@ app.post("/analyze", (req, res) => {
   request.end();
 });
 
-//make sure THIS PORT is forwarded to the ngrok port
-app.listen(3001, () => console.log("Proxy running on port 3001"));
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => console.log(`Proxy running on port ${PORT}`));
