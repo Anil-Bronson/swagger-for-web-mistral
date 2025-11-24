@@ -21,7 +21,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: "http://localhost:3001",
+        url: "https://walrus-app-icrpq.ondigitalocean.app",
         description: "Development server",
       },
     ],
