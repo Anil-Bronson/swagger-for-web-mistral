@@ -30,7 +30,7 @@ const swaggerOptions = {
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 const LLM_HOST = "localhost";
 const LLM_PORT = 11434;
